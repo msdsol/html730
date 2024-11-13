@@ -26,3 +26,29 @@ Differnce between git and github?
 Git is a distributed version control system and github is online repository system
 Git needs to be downloaded and installed. Github needs an account.
 Git is provided by oracle. Github is provided by microsoft
+
+
+Git clone vs Git Fork:
+--------------------------
+There are two ways to copy a git repository
+  1. git clone: git clone is used to copy the original repository and create a new local repository
+  since it is a local repository, it will not have any
+  connection with original repository
+  git clone "link"
+
+  2. git fork: git fork is used to copy the original repository and create a new cloud repository
+  since it is cloud repository, it will show you whenever 
+  original repository updates
+
+
+
+
+
+
+
+
+
+
+
+
+
