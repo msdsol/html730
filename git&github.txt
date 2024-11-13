@@ -1,9 +1,9 @@
 Git: Git is a distributed Version Control System. It is an application by oracle which needs to be download and installed
 steps:
   -- go to https://git-scm.com/downloads
-  -- select os and select 32/64bits
+  -- select os and select 32/64bits standalone
   -- go with next but check with default editor as vscode and install
-  we can also check version by goind to cmd and type "git -v"
+  we can also check version by going to cmd and type "git -v"
 
   steps:
   1. git init
