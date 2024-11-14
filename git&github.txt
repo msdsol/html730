@@ -13,7 +13,7 @@ steps:
      git config --global user.name "githubUsername"
      git config --global user.email "githubEmail"
 
-Till noe, local repository is created.
+Till now, local repository is created.
 we need one platform to save,share and run our code
 we have so many options like github,gitlab,bitbucket etc..,
 github is an online repository management system used to save,share and run our code 
