@@ -76,8 +76,8 @@ Adjacent sibling selector(+):
 we can identify an element which comes right after another 
 element using '+'
 General Sibling Selector(~):
-we can identify an element which comes after an element using 
-~
+we can identify an element which comes after an element 
+using ~
 
 
 

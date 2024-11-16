@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+    /* background:radial-gradient(orange,white,green,orange,white,green,orange,white,green,orange,white,green,orange,white,green,orange,white,green,orange,white,green,orange,white,green) */
+background-image: url('./4_Image.jpg');
+background-color: rgba(0, 0, 0, 0.7);
+background-repeat:no-repeat;
+background-position: top center;
+background-size: cover;
+    color: white; 
+}
