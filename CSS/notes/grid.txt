@@ -1,0 +1,2 @@
+Grid is used to display the items in two directional i.e.., row and columns. we define grid to parent container.
+In grid, it is important to know row lines and column lines
