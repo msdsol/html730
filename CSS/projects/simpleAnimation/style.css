@@ -4,6 +4,10 @@
 }
 .box{
     animation: falling-hearts 2s ease alternate infinite;
+    transition: all 1s ease;
+}
+.box:hover{
+    transform: scale(1.5);
 }
 @keyframes falling-hearts {
     100%{
