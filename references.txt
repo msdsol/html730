@@ -11,3 +11,8 @@ CSS
   -- https://flexboxlabs.netlify.app/
   -- grid garden
   -- codepen
+  -- freecodecamp
+  -- css battle
+  -- https://css-tricks.com/
+
+Google Extension -- daily.dev
