@@ -97,8 +97,84 @@ h2>span
     background-color: var(--secondary-color);
     color: white;
 }
+.title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+#about{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+    gap: 30px;
+}
+p{
+    text-align: justify;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.education,.languages,.strengths{
+    padding: 20px;
+    box-shadow: 2px 3px #333;
+    border-radius: 20px;
+}
 
-
+.right img{
+    height: 400px;
+    width: 400px;
+    clip-path: circle(200px);
+}
+section{
+    padding: 50px 0px;
+}
+#skills
+{
+    margin: auto;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 30px;
+}
+#skills img{
+    height: 200px;
+    width: 200px;
+}
+#projects
+{
+    margin: auto;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card img{
+  width: 350px;
+}
+.card{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.card button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: black;
+    border: 1px solid var(--secondary-color);
+    color: white;
+}
+.card button:hover{
+    background-color: var(--secondary-color);
+    color: white;
+}
 
 
 /* PC */
@@ -115,6 +191,14 @@ h2>span
         flex-direction: column;
         gap: 10px;
     }
+    #about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #skills{
+           grid-template-columns: repeat(3,1fr);
+    }
 }
 /* mobiles */
 @media (max-width:480px){
@@ -130,4 +214,26 @@ h2>span
         flex-direction: column;
         gap: 10px;
     }   
+    #banner h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    #banner p{
+        font-size: 1rem;
+    }
+    #about{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+    .details{
+        flex-direction: column;
+    }
+    #skills{
+           grid-template-columns: repeat(2,1fr);
+    }
+    #skills img{
+        height: 150px;
+        width: 150px;
+    }
 }
