@@ -16,3 +16,4 @@ CSS
   -- https://css-tricks.com/
 
 Google Extension -- daily.dev
+communities: dev.to , hashnode,medium
