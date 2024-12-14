@@ -28,7 +28,8 @@ To understand Bootstap well, we need to understand following topics
   padding                    p-0,p-1,p-2,p-3,p-4,p-5,pt(padding-top),pb(padding-bottom),
                               ps(padding-left),pe(padding-end),px(left and right),
                               py(top and bottom)
-
+  iv. components: components are ready-made building blocks provided by bootstrap. It contains variety of features such as Accordins, carousel, Modal,cards,buttons etc..,
+  v.Forms: Bootstrap also provides classes such as 'form-control','form-check' for different input elements
 
 
 
