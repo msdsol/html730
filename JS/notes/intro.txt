@@ -42,6 +42,22 @@ ii. let: let is introduced in ES6,2015. it is a block scoped variable and let va
 iii. const:const is introduced in ES6,2015. it is a block scoped variable and const values cannot be redeclared and cannot be reassigned
 
 ** for modern programming avoid using var and mostly use let and const
+** is semicolon mandatory in js? JS have auto semi colon insertion 
+in JS engine. still using ; at end of every statement is good practice.
+
+
+Basic Default methods:
+alert: alert method is used to alert the user with a message.
+alert(message);
+prompt: prompt is used to input a value from the user but prompt takes the value always as string(alphanumerical values)
+confirm: confirm is used to confirm a certain condition
+confirm(question)
+
+
+
+
+
+
 
 
 

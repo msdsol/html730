@@ -6,10 +6,11 @@ function fun ()
 {
    
     if (true)
-    {
-        var x = 25; 
-        var x = 90; /* we can redeclare */
-        x = 35;   /* we can reassign */
+	{
+		;
+		var x = 25
+		var x = 9 /* we can redeclare */
+        x = 35   /* we can reassign */
     }
     console.log(x)
 }
@@ -23,7 +24,7 @@ function fun2() {
 	console.log(x) /* error , x is not defined */
 }
 fun2()
-function fun2() {
+function fun3() {
 	if (true) {
 		const x = 25
 		/*const x = 90 /* we cannot redeclare */
@@ -31,4 +32,4 @@ function fun2() {
 	}
 	console.log(x) /* error , x is not defined */
 }
-fun2()
+fun3()
