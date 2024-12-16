@@ -1,0 +1,4 @@
+1. number: Any numerical value is number data type.
+ default methods:
+  
+  
