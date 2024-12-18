@@ -34,6 +34,18 @@ console.log(s.length) //6
 console.log(s.charAt(1))
 console.log(s.indexOf('a')); //2
 console.log(s.lastIndexOf('a')) //4
+console.log(s.toUpperCase())
+console.log(s) // original string won't be changed because in js, strings are immutable
+console.log(s.toLowerCase())
+console.log(s.startsWith("pa"))
+console.log(s.endsWith("ad"))
+console.log(s.replaceAll('a', 'k'));
+let s1 = "JS IS so easy";
+console.log(s.split('a'))
+s1="I love javascript"
+console.log(s1.slice(7,11));
+s="      prasad       "
+console.log(s.trim())
 
 
 
