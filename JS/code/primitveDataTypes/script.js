@@ -1,5 +1,9 @@
+
+//Hoisting  -- using/accessing of a value before its declaration
+//This is possible only in the case of var . let and const won't support
+console.log(a) //undefined
 let a = 25.1759;
-console.log(a);
+console.log(a); //25.1759
 console.log(typeof a)
 console.log(a.toFixed(2))// fixed no of decimal digits
 console.log(a.toPrecision(3)) // fixed no of digits
