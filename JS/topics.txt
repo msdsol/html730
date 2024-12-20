@@ -2,7 +2,8 @@ JAVASCRIPT:
 -----------
 -- Basics:
       introduction
-      Primitive data types
+      Primitive data types(number,string,boolean,undefined,null)
+      JS engine(Hoisting,call stack,debug)
       operators
       functions
       arrays
