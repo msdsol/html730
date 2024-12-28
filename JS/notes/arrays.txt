@@ -1,0 +1,33 @@
+Array is a collection of elements.Arrays always use square brackets. arrays stores the elements with unique addresses called index. index always starts from 0
+Arrays have a property called length. length will print total number of elements in the array
+eg: arr= [5,7,8,9,6];
+
+Arrays have some default methods:
+  *** Arrays are non primitive datatype and mutable. non primitve datatypes compares the reference/address not the value unlike primitive
+  let x="raj",y="raj"
+  console.log(x==y)
+  let a=[1,2],b=[1,2];
+  console.log(a==b)
+
+  i. push(): push is used to push an element at the end of the array and it returns the length of new array
+  ii. pop(): pop is used to remove the last element of the array.
+  iii. shift(): shift is used to remove the first element of the array
+  iv. unshift(): unshift is used to add elements at the start of the array and it returns the length of new array
+  v. splice(starting_index, deleteCount , inserting elements)
+       -- if i give only one parameter: it deletes all elements from that index
+       -- if i give two parameter: it deletes number of elements as mentioned
+       -- if i give three parameters: it deletes based on starting_index, deleteCount and it accepts multiple value to store
+
+
+
+
+
+
+
+
+
+
+
+
+
+
