@@ -18,6 +18,21 @@ Arrays have some default methods:
        -- if i give two parameter: it deletes number of elements as mentioned
        -- if i give three parameters: it deletes based on starting_index, deleteCount and it accepts multiple value to store
 
+// Array iterators
+forEach() -- forEach is used  to iterate all the values of the array and pass a callback for each and every element of the array
+
+  arrayName.forEach(callback);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
