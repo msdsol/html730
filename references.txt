@@ -15,6 +15,7 @@ CSS
   -- css battle
   -- https://css-tricks.com/
 
+
 Google Extension -- daily.dev
 communities: dev.to , hashnode,medium
 
@@ -22,3 +23,5 @@ JS
   -- freecodecamp
   -- https://www.jshero.net/en/home.html
   -- jschallenger
+  -- mdn docs
+  --https://javascript.info/
