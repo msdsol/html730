@@ -1,4 +1,5 @@
-Git: Git is a distributed Version Control System. It is an application by oracle which needs to be download and installed
+Git: Git is a distributed Version Control System. It is an application by oracle which needs to be download and installed.
+
 steps:
   -- go to https://git-scm.com/downloads
   -- select os and select 32/64bits standalone
