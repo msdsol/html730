@@ -13,7 +13,8 @@ function change ()
     if (c < 20)
     {
 			c++ //1
-			count.textContent = c //1
+        count.textContent = c //1;
+        myHeading.textContent="prasad"
 		}
 }
 function change2 ()
