@@ -20,6 +20,8 @@ DOM Manipulation:
   ii. innerText: innerText also used to access/change the text inside an element but it will also presents according to CSS
   iii. innerHTML : innerHTML is used to access/change the HTML code inside an element.
   iv. style: style property used to change the style of an element it applies inline css to that element
+  v. classList: classList is used to add/remove/toggle class names to certain elements
+  vi. value: value is used to access/change the value of an input element
 
 
 
