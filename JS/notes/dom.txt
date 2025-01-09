@@ -23,6 +23,19 @@ DOM Manipulation:
   v. classList: classList is used to add/remove/toggle class names to certain elements
   vi. value: value is used to access/change the value of an input element
 
+3. DOM Creation: it is possible to create elements using document object.we can use methods like
+ i. createElement('tagname'): used to create the element
+ ii. appendChild(element): used to append an element
+ iii. append(element1,element2...): used to append elements.
+
+
+
+
+
+
+
+
+
 
 
 
