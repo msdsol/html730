@@ -1,0 +1,11 @@
+Events are the actions performed by user and they trigger a new logic/function
+we have
+  i. mouse events: mouse events triggered by mouse.
+     onclick: triggers when you click
+     ondblclick: trigger when you double click
+     onmouseover: triggers when you keep mouse over the element
+     onmouseout: triggers when you keep mouse out of the element
+  ii. keyboard events: keyboard events are triggered by keyboard actions
+     
+  iii. form events
+  iv. window events
