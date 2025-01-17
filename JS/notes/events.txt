@@ -5,7 +5,18 @@ we have
      ondblclick: trigger when you double click
      onmouseover: triggers when you keep mouse over the element
      onmouseout: triggers when you keep mouse out of the element
+By default, every time an event triggers, it passes event object to callback function
+object have many properties such as target ,
+it contains source element
+
+
   ii. keyboard events: keyboard events are triggered by keyboard actions
-     
-  iii. form events
-  iv. window events
+     keypress: triggered by pressing the key
+  iii. form events: form events are triggered by forms/input actions
+    oninput: triggers an action whenever input is entered
+    onchange: triggers an action whenever input is changed. their is slight time difference between inout and change
+    submit : triggers an action whenever form is submitted
+    select: triggers an event whenever an element is selected
+
+  iv. window events: window events triggered by window actions such as
+    on scroll:
