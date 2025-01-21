@@ -1,0 +1,32 @@
+Asynchronous Javascript(AJAX):
+   Normally , Javascript is synchronous and single threaded language. But sometimes, js can perform asynchronous operations such as API's, timers etc..,
+   Asynchronous operations/functions takes time and returns a promise.
+   AJAX makes a particular function load without reloading whole page
+   document object also supports AJAX
+Eg: 1. update of cart in ecommerce without reloading page
+    2. getting live twitter updates without reloading
+    3. getting updated trending videos from backend in youtube
+
+Timers:
+   Timers are webapi's provided by browser similarly document and console
+There are two timers available such as
+  i. setTimeout:
+  it is used to delay certain function
+  setTimeout(fn,time in ms)
+  ii.setInterval:
+  it is used to provide/run a function with certain intervals again and again
+  setInterval(fn,time in ms)
+
+  sometimes, we need to stop these timers using folllowing functions such as
+
+  1. clearTimeout
+  2.clearInterval
+
+
+
+
+
+
+
+
+
