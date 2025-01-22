@@ -10,7 +10,7 @@ JAVASCRIPT:
       objects
       control statements
       loops
--- DOM
+-- DOM (dom selection, dom manipulation, dom create)
 -- Async:
       events
       timers
