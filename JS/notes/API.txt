@@ -1,0 +1,23 @@
+API(Application Programming Interface) :
+    It is the bridge that connects client with server. There are differnt types of API's. Most popular API for web is REST API.
+REST API: They transfer the data in JSON format
+Eg: [
+    {
+        "name":"raj",
+        "age":50
+    },
+    {
+        "name":"sita",
+        "age":55
+    }
+]
+Every API data will be transferred through an end point.
+eg: https://fakestoreapi.com/products
+
+we can access API data using fetch
+In olden days we used to achieve it by XHR(xmlHttpRequest) but broweser developed default web api to connect the endpoint
+
+fetch('https://api.example.com/data')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log('Error:', error));
