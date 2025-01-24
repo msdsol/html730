@@ -21,3 +21,35 @@ fetch('https://api.example.com/data')
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.log('Error:', error));
+
+
+
+API can have so many requests such as
+  GET: used to get all the data from an endpoint
+  POST: used to give the data to endpoint
+  DELETE: used to delete particular data using endpoint
+  PUT: used to update whole data using endpoint
+  PATCH: used to update particular data using endpoint
+
+  fetch(url,{
+    method:"POST/PUT/DELETE/PATCH"
+    data: data
+  })
+
+
+
+Promises usually use then and catch but understanding then and catch in complex chaining will be difficult. There is a modern approach to do promises called async-await
+
+
+
+
+
+
+
+
+
+
+
+
+
+
